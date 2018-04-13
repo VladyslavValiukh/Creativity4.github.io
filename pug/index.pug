@@ -1,0 +1,205 @@
+doctype HTML5
+html
+  head
+    meta(charset = 'utf-8')
+  meta(name='viewport', content="initial-scale=1.0, width=device-width")
+  link(rel="stylesheet" href="../scss/common.min.css")
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Sofia' )
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather' )
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Forum' )
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poiret+One' )
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lora' )
+  script(type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js")    
+
+  title Сreativity
+  body
+    section 
+      .wrapper 
+        .m-header-bg
+          .m-header-nav
+            
+            .logo
+              a(href="/pug")
+                img(src="../img/hora-mini-logo2.png")
+            .menu
+              .menu__icon
+                span
+                span
+                span
+                span
+              .menu__links
+                a.menu__links-item(href='/') Item 1
+                a.menu__links-item(href='/') Item 2
+
+            .header-nav1
+              ul.header-container-nav1
+                li.m-header-link
+                
+                    p
+                       a(href="#") О практике
+                li.m-header-link
+                  
+                    p   
+                      a(href="#") Новости
+                li.m-header-link
+                    p
+                      a(href="#") Контакты
+                                  
+
+            
+            .m-header-social-nav
+              ul.f
+                li.m-header-link 
+                  a(href="/pug")
+                    img(src="../img/home.png")
+                li.m-header-link 
+                  a(href="#")
+                    img(src="../img/vk.png")
+                li.m-header-link 
+                  a(href="https://www.facebook.com/HORAglobal/")
+                    img(src="../img/facebook-logo.png")
+
+                li.m-header-link 
+                  a(href="#")
+                    img(src="../img/instagram-logo.png")
+        .bg
+          .main-text
+            p  Что такое практика Hora® 
+        
+          .first-page
+            .news
+          #button
+            a(href="#yak1") 
+              img(src="../img/down-arrow.png") 
+        .backtotop(id="back-top")
+          a(href="#" id="up") Вверх
+            
+    section
+      .container2
+        .card-box
+          .card1
+            
+          .card2(id="yak1")
+            .paragraph
+              p Практика ХОРА® — тренинг выносливости и умения преодолевать.
+            .paragraph
+              p Это не фитнес, но явно идёт работа мышц и всего тела. 
+            .paragraph
+              p Это не психотерапия, но во время занятий приходит глубокий внутренний покой. 
+            .paragraph
+              p Это не доктор, но оздоровление это самое первое что происходит. 
+            .paragraph
+              p Список можно продолжать ...ХОРА® это тренинг для оптимизации жизни.
+          .more
+            button 
+              p Узнать больше
+    section
+      .container3
+        p Наша галерея
+        .page1
+          .photo
+            img(src="http://hora-life.com/images/2016/09/21/ofp-15.png")
+          .photo
+            img(src="http://hora-life.com/images/2016/09/21/ofp-14.png")
+          .photo
+            img(src="http://hora-life.com/images/2016/11/07/ofp-23.png")
+        .page2   
+          .photo
+            img(src="http://hora-life.com/images/2016/09/20/ofp-12.png")
+          .photo
+            img(src="http://hora-life.com/images/2016/11/07/ofp-25.png")
+          .photo
+            img(src="http://hora-life.com/images/2016/11/07/ofp-24.png")
+    section
+      .news-box
+        h2  Самые последние новости в сми с участием специалистов ХОРА®
+        h3  новости и события
+        .news
+          .all-boxes
+            .text
+              .box
+                h1 Отличие Практики ХОРА® от йогопрактик...
+                .button-box
+                  button 
+                    p Перейти
+            .text  
+              .box
+    
+                h1 Легальные способы борьбы с "зимней депрессией"...
+                .button-box
+                  button 
+                      p Перейти
+            .text
+              .box
+                
+                h1 Мероприятие «Новая Астана»: Культура и бизнес — будущее отношений...
+                .button-box
+                  button
+                    p Перейти
+            .text
+              .box
+                
+                h1 Как проще утром проснуться? Секреты и практика...
+                .button-box
+                   button 
+                    p Перейти
+
+  section
+    .images-box
+      .images
+        .first-half-photo
+          .part1
+            .photo
+              img(src='../img/leader.png')
+            .text
+              p 38 Лидеров
+          .part2
+            .photo
+              img(src='../img/guarantee.png')
+            .text
+              p 100% гарантия
+        .second-half-photo
+          .part3
+            .photo
+              img(src="../img/auditory.png")
+            .text
+              p 909 В зале
+          .part4
+            .photo
+              img(src='../img/world5.png')
+            .text
+              p 9 стран
+          
+        .come-btn
+          button 
+            p Посетить занятие
+  footer
+    .footer-text1  
+      .title
+        h1 © 2017 Практика ХОРА®
+          .simple-text 
+            
+              p Мы не говорим – мы делаем
+
+    .footer-text2
+      .title
+        h1 Блоги специалистов Хора®
+        .simple-text
+            a(href="#")
+              p Ольга Бендер
+            a(href="#")  
+              p Джексен Дабриг
+            a(href="#")
+              p Татьяна Владимировна Атаян-Хора
+    .footer-text3 
+      .simple-text
+        a(href="#")
+          p Библиотека
+        a(href="#")  
+          P Пробное занятие
+        
+
+          
+    script(src="../js/script.js")  
+    
+        
